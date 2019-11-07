@@ -1,3 +1,5 @@
+//	Author: Soumya Lahiri [say@soumyalahiri.com]
+
 #include<bits/stdc++.h>
 #include<sys/ioctl.h>
 #include<unistd.h>
