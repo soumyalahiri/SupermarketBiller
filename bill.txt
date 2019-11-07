@@ -1,0 +1,14 @@
+3
+120
+Coke Zero
+30
+2
+60
+Cold Coffee
+20
+1
+20
+Lays
+10
+4
+40
