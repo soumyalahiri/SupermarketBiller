@@ -1,5 +1,3 @@
-//	Author: Soumya Lahiri [say@soumyalahiri.com]
-
 #include<bits/stdc++.h>
 #include<sys/ioctl.h>
 #include<unistd.h>
@@ -122,6 +120,10 @@ void modifyItems() {
 			removeItems();
 			break;
 	}
+}
+
+void auth() {
+	cout << "Author: Soumya Lahiri <say@soumyalahiri.com>" << endl << endl;
 }
 
 void readBill() {
@@ -336,6 +338,14 @@ int main() {
 		cin >> exit;
 		if(exit == 'N' || exit == 'n')
 			break;
+
+		if(exit == 'A' || exit == 'a') {
+			auth();
+			cout << "Continue? (Y/N) ";
+			cin >> exit;
+			if(exit == 'N' || exit == 'n')
+				break;
+		}
 	}
 	return 0;
 }
